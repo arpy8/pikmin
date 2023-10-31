@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name="pikmin",
-    version="0.1",
+    version="1.0",
     author="Arpit Sengar",
     author_email="arpitsengar99@gmail.com",
     description="A Python package for playing pikmin from the command line.",

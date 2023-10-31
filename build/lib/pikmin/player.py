@@ -5,7 +5,7 @@ import pygame
 import argparse
 
 def play_audio():
-    audio_file = './assets/pikmin.mp3'
+    audio_file = './pikmin/assets/pikmin.wav'
     
     pygame.init()
 
