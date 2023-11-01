@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pikmin
-Version: 2.2
+Version: 2.4
 Summary: A Python package for playing pikmin from the command line.
 Home-page: https://github.com/arpy8/pikmin
 Author: Arpit Sengar
@@ -11,4 +11,12 @@ Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
 
 # PIKMIN
-This is a pikmin package.
+### This is a pikmin package.
+
+
+
+Install pikmin using:
+
+`
+pip install pikmin
+`

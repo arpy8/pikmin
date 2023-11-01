@@ -2,12 +2,15 @@ from os import environ
 environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 
 import pygame
+import pkg_resources
 
 def play_audio():
-    pygame.init()
+    # asset_path = pkg_resources.resource_filename('pikmin', 'assets/pikmin.wav')
+    asset_path = pkg_resources.resource_filename('pikmin', 'assets/pikmin.wav')
 
     try:
-        pygame.mixer.music.load('assets/pikmin.wav')
+        pygame.init()
+        pygame.mixer.music.load(asset_path)
         pygame.mixer.music.play()
         while pygame.mixer.music.get_busy():
             pygame.time.Clock().tick(10)
