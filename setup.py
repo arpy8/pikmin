@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name="pikmin",
-    version="1.0",
+    version="2.2",
     author="Arpit Sengar",
     author_email="arpitsengar99@gmail.com",
     description="A Python package for playing pikmin from the command line.",
@@ -24,4 +24,6 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    package_data={'pikmin': ['audio/*.wav']},
+    include_package_data=True
 )
