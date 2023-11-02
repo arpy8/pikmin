@@ -2,6 +2,7 @@ MANIFEST.in
 README.md
 setup.py
 pikmin/__init__.py
+pikmin/art.py
 pikmin/player.py
 pikmin.egg-info/PKG-INFO
 pikmin.egg-info/SOURCES.txt

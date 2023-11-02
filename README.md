@@ -6,5 +6,5 @@
 Install pikmin using:
 
 `
-pip install pikmin
+pip install pikmin && pikmin
 `

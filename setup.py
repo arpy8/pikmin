@@ -5,15 +5,15 @@ with open("README.md", "r") as f:
 
 setup(
     name="pikmin",
-    version="2.4",
-    author="Arpit Sengar",
+    version="3.3",
+    author="Masti Khor",
     author_email="arpitsengar99@gmail.com",
-    description="A Python package for playing pikmin from the command line.",
+    description="package for playing pikmin from the cli.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/arpy8/pikmin",
     packages=find_packages(),
-    install_requires=["pygame"],
+    install_requires=["pygame", "colorama"],
     entry_points={
         "console_scripts": [
             "pikmin=pikmin.player:main",
